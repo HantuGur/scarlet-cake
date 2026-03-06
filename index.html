@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>scarlett's. — Bakery & Café, Jakarta</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Jost:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Great+Vibes&family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="pre-wrap">
+      <div class="pre-petal pre-p1"></div>
+      <div class="pre-petal pre-p2"></div>
+      <div class="pre-petal pre-p3"></div>
+      <div class="pre-name">scarlett's.</div>
+      <div class="pre-sub">Bakery · Café · Jakarta</div>
+    </div>
+  </div>
+
+  <!-- CURSOR — soft teardrop -->
+  <div id="csr" class="csr"></div>
+  <div id="csr2" class="csr2"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">scarlett's.</div>
+    <ul class="nav-links">
+      <li><a href="#story">Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#lokasi">Lokasi</a></li>
+      <li><a href="#galeri">Galeri</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+    <a class="nav-cta" onclick="openWAChooser()">Reservasi</a>
+    <div class="hamburger" id="hamburger"><span></span><span></span></div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mob-menu" id="mob-menu">
+    <div class="mm-deco">✿</div>
+    <ul>
+      <li><a href="#story" onclick="closeMob()">Story</a></li>
+      <li><a href="#menu" onclick="closeMob()">Menu</a></li>
+      <li><a href="#lokasi" onclick="closeMob()">Lokasi</a></li>
+      <li><a href="#galeri" onclick="closeMob()">Galeri</a></li>
+      <li><a href="#contact" onclick="closeMob()">Kontak</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1559181567-c3190ca9d222?w=1800&q=85" alt="Scarlett's cake" class="hero-img"/>
+      <div class="hero-veil"></div>
+    </div>
+
+    <!-- Floating petals (CSS animated) -->
+    <div class="petal p1">✿</div>
+    <div class="petal p2">❀</div>
+    <div class="petal p3">✾</div>
+    <div class="petal p4">✿</div>
+
+    <div class="hero-body">
+      <p class="hero-eyebrow fade-up">Bakery · Café · Jakarta</p>
+      <h1 class="hero-title fade-up">scarlett's<span class="ht-dot">.</span></h1>
+      <p class="hero-tagline fade-up"><em>Where every bite tells a story</em></p>
+      <p class="hero-desc fade-up">Kue, pastry, dan hidangan lezat yang dibuat dengan bahan pilihan<br/>dan disajikan dalam suasana yang hangat & intim.</p>
+      <div class="hero-btns fade-up">
+        <a href="#menu" class="btn-rose">Lihat Menu</a>
+        <a href="#lokasi" class="btn-ghost-rose">Kunjungi Kami</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="hs-line"></div>
+      <span>scroll</span>
+    </div>
+    <div class="hero-hours">Sen–Kam 11:00–19:30 · Jum–Sab 11:00–21:30</div>
+  </section>
+
+  <!-- SOFT STRIP -->
+  <div class="soft-strip">
+    <div class="ss-track">
+      <span>Cakes</span><span class="ss-sep">✿</span>
+      <span>Pastries</span><span class="ss-sep">✿</span>
+      <span>Set Menu</span><span class="ss-sep">✿</span>
+      <span>Hampers</span><span class="ss-sep">✿</span>
+      <span>Flower Box</span><span class="ss-sep">✿</span>
+      <span>Menteng</span><span class="ss-sep">✿</span>
+      <span>PIK</span><span class="ss-sep">✿</span>
+      <span>Blok M</span><span class="ss-sep">✿</span>
+      <span>Cakes</span><span class="ss-sep">✿</span>
+      <span>Pastries</span><span class="ss-sep">✿</span>
+      <span>Set Menu</span><span class="ss-sep">✿</span>
+      <span>Hampers</span><span class="ss-sep">✿</span>
+      <span>Flower Box</span><span class="ss-sep">✿</span>
+      <span>Menteng</span><span class="ss-sep">✿</span>
+      <span>PIK</span><span class="ss-sep">✿</span>
+      <span>Blok M</span><span class="ss-sep">✿</span>
+    </div>
+  </div>
+
+  <!-- STORY -->
+  <section id="story">
+    <div class="story-wrap">
+      <div class="story-imgs reveal">
+        <div class="si-main">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=700&q=80" alt="Cake"/>
+        </div>
+        <div class="si-float">
+          <img src="https://images.unsplash.com/photo-1587668178277-295251f900ce?w=400&q=80" alt="Cafe interior"/>
+          <div class="sif-caption">scarlett's house</div>
+        </div>
+        <div class="si-badge">
+          <span class="sib-n" data-target="143000">0</span>
+          <span class="sib-l">followers</span>
+        </div>
+      </div>
+
+      <div class="story-text reveal">
+        <span class="s-label">Our Story</span>
+        <h2 class="s-title">Dibuat dengan<br/><em>Cinta</em>, Disajikan<br/>dengan Hangat</h2>
+        <p>scarlett's lahir dari kecintaan mendalam terhadap kue yang indah dan ruang yang membuat orang merasa betah. Setiap lapisan, setiap rasa, setiap dekorasi — adalah karya yang kami buat dengan sepenuh hati.</p>
+        <p>Dari layer cake elegan hingga pastry sesaat yang renyah — kami percaya bahwa makanan yang baik adalah bahasa universal yang menyatukan orang-orang terkasih.</p>
+        <div class="story-nums">
+          <div class="snum">
+            <span class="sn-n" data-target="784">0</span>
+            <span class="sn-l">Posts</span>
+          </div>
+          <div class="snum">
+            <span class="sn-n" data-target="3">0</span>
+            <span class="sn-l">Lokasi</span>
+          </div>
+          <div class="snum">
+            <span class="sn-n" data-target="5">0</span>
+            <span class="sn-l">Tahun</span>
+          </div>
+        </div>
+        <a href="#menu" class="btn-rose">Lihat Koleksi Kami</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu">
+    <div class="menu-intro reveal">
+      <span class="s-label">Yang Kami Sajikan</span>
+      <h2>Menu <em>Pilihan</em></h2>
+      <p>Dari kue ulang tahun custom hingga set menu makan siang yang intim — semua dibuat dengan bahan premium terpilih.</p>
+    </div>
+
+    <!-- Category tabs -->
+    <div class="menu-tabs reveal">
+      <button class="mtab active" data-cat="cakes">🎂 Cakes</button>
+      <button class="mtab" data-cat="pastry">🥐 Pastry</button>
+      <button class="mtab" data-cat="setmenu">🍽 Set Menu</button>
+      <button class="mtab" data-cat="hamper">🎁 Hampers</button>
+    </div>
+
+    <div class="menu-grid reveal" id="menu-grid">
+      <!-- CAKES -->
+      <div class="mc" data-cat="cakes">
+        <div class="mc-img">
+          <img src="https://images.unsplash.com/photo-1599785209707-a456fc010ca0?w=600&q=80" alt="Layer Cake"/>
+          <div class="mc-badge">Signature</div>
+        </div>
+        <div class="mc-body">
+          <h3>Earl Grey Layer Cake</h3>
+          <p>Layer cake teh earl grey dengan buttercream vanilla dan edible flower decoration.</p>
+          <span class="mc-tag">Custom · Pre-order</span>
+        </div>
+      </div>
+
+      <div class="mc" data-cat="cakes">
+        <div class="mc-img">
+          <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80" alt="Tiramisu"/>
+          <div class="mc-badge fav">Favorit</div>
+        </div>
+        <div class="mc-body">
+          <h3>Tiramisu scarlett's</h3>
+          <p>Tiramisu klasik dengan espresso pilihan dan mascarpone premium — ringan tapi kaya rasa.</p>
+          <span class="mc-tag">37rb per slice</span>
+        </div>
+      </div>
+
+      <div class="mc" data-cat="cakes">
+        <div class="mc-img">
+          <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&q=80" alt="Floral Cake"/>
+        </div>
+        <div class="mc-body">
+          <h3>Seasonal Floral Cake</h3>
+          <p>Kue cantik dengan dekorasi bunga seasonal yang berubah setiap bulan. Cocok untuk hadiah.</p>
+          <span class="mc-tag">Custom · Limited</span>
+        </div>
+      </div>
+
+      <!-- PASTRY -->
+      <div class="mc" data-cat="pastry">
+        <div class="mc-img">
+          <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&q=80" alt="Croissant"/>
+          <div class="mc-badge">Fresh Daily</div>
+        </div>
+        <div class="mc-body">
+          <h3>Butter Croissant</h3>
+          <p>Croissant mentega berlapis yang dipanggang fresh setiap pagi — renyah di luar, lembut di dalam.</p>
+          <span class="mc-tag">Ready · Walk-in</span>
+        </div>
+      </div>
+
+      <div class="mc" data-cat="pastry">
+        <div class="mc-img">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80" alt="Pastry"/>
+        </div>
+        <div class="mc-body">
+          <h3>Danish & Kouign-Amann</h3>
+          <p>Pastry Eropa klasik dengan filling cream cheese, fruits, atau almond custard pilihan.</p>
+          <span class="mc-tag">Fresh · Daily</span>
+        </div>
+      </div>
+
+      <div class="mc" data-cat="pastry">
+        <div class="mc-img">
+          <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&q=80" alt="Cookies"/>
+        </div>
+        <div class="mc-body">
+          <h3>Artisan Cookies</h3>
+          <p>Koleksi cookies butter, matcha, dan chocolate hazelnut yang renyah dan adiktif.</p>
+          <span class="mc-tag">Box of 6 · 12</span>
+        </div>
+      </div>
+
+      <!-- SET MENU -->
+      <div class="mc" data-cat="setmenu">
+        <div class="mc-img">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Set Menu"/>
+          <div class="mc-badge">New</div>
+        </div>
+        <div class="mc-body">
+          <h3>Iftar Set Menu</h3>
+          <p>Paket buka puasa lengkap dengan appetizer, main course, dan dessert scarlett's pilihan.</p>
+          <span class="mc-tag">Pre-order · Limited</span>
+        </div>
+      </div>
+
+      <div class="mc" data-cat="setmenu">
+        <div class="mc-img">
+          <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=600&q=80" alt="Brunch"/>
+        </div>
+        <div class="mc-body">
+          <h3>Weekend Brunch Set</h3>
+          <p>Nikmati weekend dengan brunch set spesial — eggs, toast, side dish, dan minuman pilihan.</p>
+          <span class="mc-tag">Sabtu – Minggu</span>
+        </div>
+      </div>
+
+      <!-- HAMPERS -->
+      <div class="mc" data-cat="hamper">
+        <div class="mc-img">
+          <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=600&q=80" alt="Hamper"/>
+          <div class="mc-badge">Ramadhan</div>
+        </div>
+        <div class="mc-body">
+          <h3>Ramadhan Hampers</h3>
+          <p>Hampers Ramadhan elegan berisi pilihan kue, pastry, dan produk premium scarlett's.</p>
+          <span class="mc-tag">Pre-order · Custom</span>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="mc mc-cta">
+        <div class="mc-cta-inner">
+          <div class="mcta-deco">✿</div>
+          <h3>Custom Order<br/>& Hampers</h3>
+          <p>Buat pesanan spesial untuk momen istimewa kamu</p>
+          <button class="btn-rose" onclick="openWAChooser()">Pesan via WA</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOKASI / BRANCHES -->
+  <section id="lokasi">
+    <div class="lokasi-intro reveal">
+      <span class="s-label">Temukan Kami</span>
+      <h2>Scarlett's <em>House</em></h2>
+      <p>Hadir di tiga lokasi pilihan di Jakarta — masing-masing dengan karakter dan suasana yang unik.</p>
+    </div>
+
+    <!-- Branch Tabs -->
+    <div class="branch-tabs reveal">
+      <button class="btab active" data-branch="0">
+        <span class="btab-icon">✿</span>
+        <span>Menteng</span>
+        <span class="btab-sub">Jakarta Pusat</span>
+      </button>
+      <button class="btab" data-branch="1">
+        <span class="btab-icon">✿</span>
+        <span>PIK</span>
+        <span class="btab-sub">Jakarta Utara</span>
+      </button>
+      <button class="btab" data-branch="2">
+        <span class="btab-icon">✿</span>
+        <span>Blok M</span>
+        <span class="btab-sub">Jakarta Selatan</span>
+      </button>
+    </div>
+
+    <div class="branch-panels">
+
+      <!-- MENTENG -->
+      <div class="bpanel active" id="branch-0">
+        <div class="bpanel-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5!2d106.833!3d-6.207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f427!2sScarlett+Menteng!5e0!3m2!1sid!2sid!4v1"
+            allowfullscreen="" loading="lazy" title="Scarlett's Menteng">
+          </iframe>
+          <div class="bpm-tag">Menteng · Jakarta Pusat</div>
+        </div>
+        <div class="bpanel-info">
+          <div class="bpi-open"><span class="bpi-dot"></span> Buka Sekarang</div>
+          <h3>scarlett's house<br/><em>Menteng</em></h3>
+          <div class="bpi-rows">
+            <div class="bpr">
+              <span class="bpr-icon">📍</span>
+              <div><strong>Alamat</strong><p>Jl. Latuharhary No. 9<br/>Menteng, Jakarta Pusat</p></div>
+            </div>
+            <div class="bpr">
+              <span class="bpr-icon">🕐</span>
+              <div><strong>Jam Buka</strong>
+                <p>Sen–Kam: 11:00 – 19:30<br/>Jum–Sab: 11:00 – 21:30<br/>Minggu: 11:00 – 19:30</p>
+              </div>
+            </div>
+            <div class="bpr">
+              <span class="bpr-icon">🌸</span>
+              <div><strong>Fasilitas</strong><p>Indoor · Outdoor · Dine-in · Takeaway</p></div>
+            </div>
+          </div>
+          <div class="bpi-btns">
+            <button class="btn-rose" onclick="openWABranch(0)">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Chat WA
+            </button>
+            <a href="https://maps.google.com/?q=Jl+Latuharhary+No+9+Menteng+Jakarta+Pusat" target="_blank" class="btn-ghost-rose">🗺 Maps</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PIK -->
+      <div class="bpanel" id="branch-1">
+        <div class="bpanel-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8!2d106.747!3d-6.119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0!2sScarlett+PIK!5e0!3m2!1sid!2sid!4v1"
+            allowfullscreen="" loading="lazy" title="Scarlett's PIK">
+          </iframe>
+          <div class="bpm-tag">PIK · Jakarta Utara</div>
+        </div>
+        <div class="bpanel-info">
+          <div class="bpi-open"><span class="bpi-dot"></span> Buka Sekarang</div>
+          <h3>scarlett's house<br/><em>PIK</em></h3>
+          <div class="bpi-rows">
+            <div class="bpr">
+              <span class="bpr-icon">📍</span>
+              <div><strong>Alamat</strong><p>Ruko Golf Island, Blok L No. 31<br/>Jl. Pantai Indah Kapuk<br/>Penjaringan, Jakarta Utara</p></div>
+            </div>
+            <div class="bpr">
+              <span class="bpr-icon">🕐</span>
+              <div><strong>Jam Buka</strong>
+                <p>Sen–Kam: 11:00 – 19:30<br/>Jum–Sab: 11:00 – 21:30<br/>Minggu: 11:00 – 19:30</p>
+              </div>
+            </div>
+            <div class="bpr">
+              <span class="bpr-icon">🌸</span>
+              <div><strong>Fasilitas</strong><p>Indoor · Outdoor · Dine-in · Takeaway</p></div>
+            </div>
+          </div>
+          <div class="bpi-btns">
+            <button class="btn-rose" onclick="openWABranch(1)">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Chat WA
+            </button>
+            <a href="https://maps.google.com/?q=Ruko+Golf+Island+Blok+L+PIK+Jakarta+Utara" target="_blank" class="btn-ghost-rose">🗺 Maps</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- BLOK M -->
+      <div class="bpanel" id="branch-2">
+        <div class="bpanel-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2!2d106.797!3d-6.244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0!2sScarlett+Blok+M!5e0!3m2!1sid!2sid!4v1"
+            allowfullscreen="" loading="lazy" title="Scarlett's Blok M">
+          </iframe>
+          <div class="bpm-tag">Blok M · Jakarta Selatan</div>
+        </div>
+        <div class="bpanel-info">
+          <div class="bpi-open"><span class="bpi-dot"></span> Buka Sekarang</div>
+          <h3>scarlett's house<br/><em>Blok M</em></h3>
+          <div class="bpi-rows">
+            <div class="bpr">
+              <span class="bpr-icon">📍</span>
+              <div><strong>Alamat</strong><p>Blok M, Jakarta Selatan</p></div>
+            </div>
+            <div class="bpr">
+              <span class="bpr-icon">🕐</span>
+              <div><strong>Jam Buka</strong>
+                <p>Sen–Kam: 11:00 – 19:30<br/>Jum–Sab: 11:00 – 21:30<br/>Minggu: 11:00 – 19:30</p>
+              </div>
+            </div>
+            <div class="bpr">
+              <span class="bpr-icon">🌸</span>
+              <div><strong>Info</strong><p>Scarlett's House Blok M — flagship location</p></div>
+            </div>
+          </div>
+          <div class="bpi-btns">
+            <button class="btn-rose" onclick="openWABranch(2)">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Chat WA
+            </button>
+            <a href="https://maps.google.com/?q=Scarlett+Blok+M+Jakarta+Selatan" target="_blank" class="btn-ghost-rose">🗺 Maps</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GALERI -->
+  <section id="galeri">
+    <div class="galeri-intro reveal">
+      <span class="s-label">Galeri</span>
+      <h2>A Peek into <em>scarlett's</em></h2>
+    </div>
+    <div class="galeri-grid reveal">
+      <div class="gi gi-tall" data-label="Our Cakes">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=700&q=80" alt="Cake"/>
+      </div>
+      <div class="gi" data-label="Café Space">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&q=80" alt="Café"/>
+      </div>
+      <div class="gi" data-label="Pastry">
+        <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&q=80" alt="Pastry"/>
+      </div>
+      <div class="gi gi-wide" data-label="Plating & Styling">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=80" alt="Plating"/>
+      </div>
+      <div class="gi" data-label="Flower & Cake">
+        <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&q=80" alt="Floral cake"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE SECTION -->
+  <section id="quote">
+    <div class="quote-wrap reveal">
+      <div class="qw-deco top">✿</div>
+      <blockquote>
+        <span class="q-open">"</span>
+        Every cake is a love letter.<br/>
+        Every meal, a memory made.
+        <span class="q-close">"</span>
+      </blockquote>
+      <cite>— scarlett's.</cite>
+      <div class="qw-deco bot">✿</div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <section id="contact">
+    <div class="contact-grid">
+      <div class="cg-brand reveal">
+        <div class="cgb-name">scarlett's.</div>
+        <p class="cgb-tagline">Bakery · Café · Jakarta</p>
+        <p class="cgb-desc">Dibuat dengan cinta,<br/>untuk momen yang tak terlupakan.</p>
+        <div class="cgb-socials">
+          <a href="https://instagram.com/scarlettscake__jkt" target="_blank" class="cgs-link">
+            <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            @scarlettscake__jkt
+          </a>
+          <a href="https://linktr.ee/scarlettscake" target="_blank" class="cgs-link">
+            🌿 linktr.ee/scarlettscake
+          </a>
+        </div>
+      </div>
+
+      <div class="cg-lokasi reveal">
+        <h3>Lokasi Kami</h3>
+        <div class="cgl-list">
+          <div class="cgll" onclick="scrollToBranch(0)">
+            <span class="cgll-dot">✿</span>
+            <div>
+              <strong>Menteng, Jakarta Pusat</strong>
+              <p>Jl. Latuharhary No. 9</p>
+            </div>
+          </div>
+          <div class="cgll" onclick="scrollToBranch(1)">
+            <span class="cgll-dot">✿</span>
+            <div>
+              <strong>PIK, Jakarta Utara</strong>
+              <p>Ruko Golf Island, Blok L No. 31</p>
+            </div>
+          </div>
+          <div class="cgll" onclick="scrollToBranch(2)">
+            <span class="cgll-dot">✿</span>
+            <div>
+              <strong>Blok M, Jakarta Selatan</strong>
+              <p>Scarlett's House Blok M</p>
+            </div>
+          </div>
+        </div>
+        <p class="cg-jam">Sen–Kam 11:00–19:30 · Jum–Sab 11:00–21:30 · Minggu 11:00–19:30</p>
+      </div>
+
+      <div class="cg-order reveal">
+        <h3>Custom Order & Reservasi</h3>
+        <p>Pre-order kue, custom hampers, atau reservasi meja — hubungi kami via WhatsApp.</p>
+        <button class="btn-wa" onclick="openWAChooser()">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chat via WhatsApp
+        </button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="fb-flower">✿ ✾ ✿</div>
+      <p>© 2025 scarlett's. — All Rights Reserved · Jakarta, Indonesia</p>
+    </div>
+  </section>
+
+  <!-- WA MODAL -->
+  <div class="wa-modal" id="wa-modal">
+    <div class="wa-modal-box">
+      <button class="wam-close" onclick="closeWAModal()">✕</button>
+      <div class="wam-head">
+        <div class="wamh-deco">✿</div>
+        <div class="wamh-name">scarlett's.</div>
+        <p>Pilih lokasi scarlett's terdekat</p>
+      </div>
+      <div class="wam-list">
+        <button class="wam-item" onclick="openWABranch(0)">
+          <div class="wami-icon">✿</div>
+          <div class="wami-info">
+            <strong>Menteng, Jakarta Pusat</strong>
+            <span>Jl. Latuharhary No. 9 · 11:00–19:30</span>
+          </div>
+          <span class="wami-arr">→</span>
+        </button>
+        <button class="wam-item" onclick="openWABranch(1)">
+          <div class="wami-icon">✿</div>
+          <div class="wami-info">
+            <strong>PIK, Jakarta Utara</strong>
+            <span>Ruko Golf Island · 11:00–19:30</span>
+          </div>
+          <span class="wami-arr">→</span>
+        </button>
+        <button class="wam-item" onclick="openWABranch(2)">
+          <div class="wami-icon">✿</div>
+          <div class="wami-info">
+            <strong>Blok M, Jakarta Selatan</strong>
+            <span>Scarlett's House Blok M · 11:00–19:30</span>
+          </div>
+          <span class="wami-arr">→</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- WA FAB -->
+  <button class="wa-fab" id="wa-fab" onclick="openWAChooser()" aria-label="WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <div class="waf-pulse"></div>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
